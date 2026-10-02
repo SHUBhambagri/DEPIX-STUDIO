@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEPIX Studio — Minimalist Art & Digital Printables</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #FBF9F5; }
+    </style>
+</head>
+<body class="text-neutral-900 antialiased">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-neutral-900 text-white text-xs font-semibold py-2.5 text-center tracking-wide">
+        ✨ INSTANT UPI CHECKOUT (GPAY / PHONEPE / PAYTM) • AUTOMATED GOOGLE DRIVE ACCESS
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center border-b border-neutral-200">
+        <div class="text-2xl font-extrabold tracking-tight">DEPIX <span class="font-light text-neutral-500">STUDIO</span></div>
+        <div class="space-x-6 text-sm font-medium text-neutral-600">
+            <a href="#packs" class="hover:text-black">Wall Packs</a>
+            <a href="#singles" class="hover:text-black">Single Posters</a>
+            <a href="#how-it-works" class="hover:text-black">How It Works</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="max-w-5xl mx-auto text-center py-16 px-6">
+        <span class="text-xs uppercase tracking-widest font-bold text-neutral-500 bg-neutral-200 px-3 py-1 rounded-full">Digital Download Gallery</span>
+        <h1 class="text-4xl md:text-6xl font-extrabold mt-4 tracking-tight leading-tight">Aesthetic Wall Art & Printable Poster Collections</h1>
+        <p class="text-neutral-600 text-base md:text-lg mt-4 max-w-2xl mx-auto">High-resolution 300 DPI printable art and phone wallpapers designed to elevate your room decor and smartphone lock screens.</p>
+    </section>
+
+    <!-- Section 1: Wall Setup Packs -->
+    <section id="packs" class="max-w-7xl mx-auto px-6 py-10">
+        <div class="flex justify-between items-end mb-8 border-b border-neutral-200 pb-4">
+            <div>
+                <span class="text-xs font-bold tracking-widest uppercase text-neutral-400">READY IN ONE TAP</span>
+                <h2 class="text-2xl font-extrabold">WALL SETUP PACKS</h2>
+            </div>
+            <span class="text-xs font-bold text-neutral-500">300 DPI High-Res</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Pack Card 1 -->
+            <div class="bg-white rounded-2xl p-4 border border-neutral-200 shadow-sm hover:shadow-md transition">
+                <div class="bg-neutral-100 rounded-xl h-64 mb-4 flex items-center justify-center overflow-hidden">
+                    <span class="text-neutral-400 text-sm font-medium">[Insert Room Mockup Image]</span>
+                </div>
+                <h3 class="font-bold text-lg">The Ultimate Minimalist Poster Bundle</h3>
+                <p class="text-xs text-neutral-500 mt-1">Full Collection • A4, A3, 16x20 & Phone Wallpapers</p>
+                <div class="mt-4 flex items-center justify-between">
+                    <div>
+                        <span class="text-xl font-extrabold">₹549</span>
+                        <span class="text-sm text-neutral-400 line-through ml-1">₹799</span>
+                    </div>
+                    <a href="https://payments.cashfree.com/forms?code=DEPIX&utm_source=ig&utm_medium=social&utm_content=link_in_bio" target="_blank" class="bg-black text-white text-xs font-bold px-4 py-2.5 rounded-lg hover:bg-neutral-800 transition">Buy via UPI · ₹549</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Single Posters -->
+    <section id="singles" class="max-w-7xl mx-auto px-6 py-12">
+        <div class="flex justify-between items-end mb-8 border-b border-neutral-200 pb-4">
+            <div>
+                <span class="text-xs font-bold tracking-widest uppercase text-neutral-400">BESTSELLING PRINTS</span>
+                <h2 class="text-2xl font-extrabold">SINGLE POSTERS & WALLPAPERS</h2>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            <!-- Poster Card 1 -->
+            <div class="bg-white rounded-2xl p-4 border border-neutral-200 shadow-sm">
+                <div class="bg-neutral-100 rounded-xl h-56 mb-4 flex items-center justify-center">
+                    <span class="text-neutral-400 text-sm font-medium">Think Less, Do More</span>
+                </div>
+                <h3 class="font-bold text-base">Think Less, Do More Poster</h3>
+                <p class="text-xs text-neutral-500 mt-1">Motivational Typography Print</p>
+                <div class="mt-4 flex items-center justify-between">
+                    <div>
+                        <span class="text-lg font-bold">₹199</span>
+                        <span class="text-xs text-neutral-400 line-through ml-1">₹399</span>
+                    </div>
+                    <a href="https://payments.cashfree.com/forms?code=DEPIX&utm_source=ig&utm_medium=social&utm_content=link_in_bio" target="_blank" class="bg-black text-white text-xs font-bold px-3 py-2 rounded-lg">Buy via UPI</a>
+                </div>
+            </div>
+
+            <!-- Poster Card 2 -->
+            <div class="bg-white rounded-2xl p-4 border border-neutral-200 shadow-sm">
+                <div class="bg-neutral-100 rounded-xl h-56 mb-4 flex items-center justify-center">
+                    <span class="text-neutral-400 text-sm font-medium">Cobalt Vinyl Record</span>
+                </div>
+                <h3 class="font-bold text-base">Analog Music Vinyl Print</h3>
+                <p class="text-xs text-neutral-500 mt-1">Retro Monochromatic Artwork</p>
+                <div class="mt-4 flex items-center justify-between">
+                    <div>
+                        <span class="text-lg font-bold">₹199</span>
+                        <span class="text-xs text-neutral-400 line-through ml-1">₹399</span>
+                    </div>
+                    <a href="https://payments.cashfree.com/forms?code=DEPIX&utm_source=ig&utm_medium=social&utm_content=link_in_bio" target="_blank" class="bg-black text-white text-xs font-bold px-3 py-2 rounded-lg">Buy via UPI</a>
+                </div>
+            </div>
+
+            <!-- Poster Card 3 -->
+            <div class="bg-white rounded-2xl p-4 border border-neutral-200 shadow-sm">
+                <div class="bg-neutral-100 rounded-xl h-56 mb-4 flex items-center justify-center">
+                    <span class="text-neutral-400 text-sm font-medium">Go With The Flow</span>
+                </div>
+                <h3 class="font-bold text-base">Go With The Flow Poster</h3>
+                <p class="text-xs text-neutral-500 mt-1">Ocean Whale Inspiration</p>
+                <div class="mt-4 flex items-center justify-between">
+                    <div>
+                        <span class="text-lg font-bold">₹199</span>
+                        <span class="text-xs text-neutral-400 line-through ml-1">₹399</span>
+                    </div>
+                    <a href="https://payments.cashfree.com/forms?code=DEPIX&utm_source=ig&utm_medium=social&utm_content=link_in_bio" target="_blank" class="bg-black text-white text-xs font-bold px-3 py-2 rounded-lg">Buy via UPI</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="max-w-5xl mx-auto px-6 py-12 my-10 bg-neutral-100 rounded-2xl">
+        <h2 class="text-xl font-extrabold text-center mb-8">HOW AUTOMATED DELIVERY WORKS</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+            <div>
+                <div class="w-8 h-8 bg-black text-white rounded-full flex items-center justify-center mx-auto font-bold text-xs mb-3">1</div>
+                <h4 class="font-bold text-sm">Pick Your Poster</h4>
+                <p class="text-xs text-neutral-500 mt-1">Choose single posters or the complete setup bundle.</p>
+            </div>
+            <div>
+                <div class="w-8 h-8 bg-black text-white rounded-full flex items-center justify-center mx-auto font-bold text-xs mb-3">2</div>
+                <h4 class="font-bold text-sm">Instant UPI Payment</h4>
+                <p class="text-xs text-neutral-500 mt-1">Pay via PhonePe, Google Pay, Paytm, or BHIM.</p>
+            </div>
+            <div>
+                <div class="w-8 h-8 bg-black text-white rounded-full flex items-center justify-center mx-auto font-bold text-xs mb-3">3</div>
+                <h4 class="font-bold text-sm">Automated Drive Access</h4>
+                <p class="text-xs text-neutral-500 mt-1">Get instantly redirected to your Google Drive folder.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-8 text-xs text-neutral-400 border-t border-neutral-200">
+        © 2026 DEPIX Studio. All Rights Reserved. • Personal Use Only
+    </footer>
+
+</body>
+</html>
